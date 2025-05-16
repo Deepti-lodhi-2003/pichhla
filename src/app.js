@@ -18,6 +18,7 @@ app.use(cors({
   origin: function (origin, callback) {
     const allowedOrigins = [
       'http://localhost:5173',
+      'https://ange-phi.vercel.app/'
    
     ];
     if (!origin || allowedOrigins.includes(origin)) {
